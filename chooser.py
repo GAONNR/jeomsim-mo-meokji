@@ -11,7 +11,7 @@ class Hos:
         self.location = (location == '나가먹' and 1 or 0)
 
     def __str__(self):
-        return '%s (%s)' % (self.name, self.menu)
+        return '%s(%s)' % (self.name, self.menu)
 
 list_of_restaurant = [Hos('버거킹', '햄버거', '나가먹'),
                       Hos('KFC', '치킨+버거', '건물안'),
@@ -48,14 +48,17 @@ def is_this_correct(location, option):
         return (location == 0 and True or False)
 
 
-def choose_my_lunch():
-    option = choice_option()
+def choose_my_lunch(option, v):
     choice = Hos('Default', '아무거나', '건물안')
     while True:
         choice = random.choice(list_of_restaurant)
         if is_this_correct(choice.location, option):
             break
-    print(choice)
+    if v:
+        print(choice)
+    else:
+        return str(choice)
 
 if __name__ == '__main__':
-    choose_my_lunch()
+    option = choice_option()
+    choose_my_lunch(option, True)

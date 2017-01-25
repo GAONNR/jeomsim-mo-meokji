@@ -23,6 +23,7 @@ list_of_restaurant = [Hos('버거킹', '햄버거', '나가먹'),
                       Hos('새벽집', '순두부', '건물안'),
                       Hos('한촌', '설렁탕', '건물안'),
                       Hos('빅소이', '태국음식', '나가먹'),
+                      Hos('새벽녘', '순두부', '건물안'),
                       ]
 
 
@@ -31,7 +32,8 @@ def choice_option():
     if len(sys.argv) > 1:
         option = int(sys.argv[1])
     else:
-        option = int(input('0: Stay Inside\n1: Go Outside\n2: No Matter\nGive me a number: '))
+        option = int(
+            input('0: Stay Inside\n1: Go Outside\n2: No Matter\nGive me a number: '))
 
     if option < 0 or option > 2:
         print('Invalid Option')

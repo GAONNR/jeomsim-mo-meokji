@@ -9,6 +9,7 @@ class Hos:
         self.name = name
         self.menu = menu
         self.location = (location == '나가먹' and 1 or 0)
+        self.prior = 5
 
     def __str__(self):
         return '%s(%s)' % (self.name, self.menu)

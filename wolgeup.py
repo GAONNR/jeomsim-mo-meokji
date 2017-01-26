@@ -25,4 +25,16 @@ data = '''
 }
 ''' % (wolgeupnal - today).days
 
+if (wolgeupnal - today).days == 0:
+    data = '''
+{
+    "body" : "퇴근하세요!",
+    "connectColor" : "#e91e63",
+    "connectInfo": [{
+        "title" : "월급날",
+        "description" : "대신귀\\n여운월\\n급님을\\n드리겠\\n습니다"
+    }]
+}
+'''
+
 r = requests.post(jandiurl.url, data=data.encode('utf-8'), headers=headers)

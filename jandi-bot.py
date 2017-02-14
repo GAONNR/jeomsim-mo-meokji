@@ -19,18 +19,18 @@ data = '''
     "body" : "☆★오늘 점심 뭐 먹지(%02d/%02d)★☆",
     "connectColor" : "#2196f3",
     "connectInfo": [{
-        "title" : "1. 나가먹",
+        "title" : "1. 안에서먹",
         "description" : "%s"
     },
     {
-        "title" : "2. 안에서먹",
+        "title" : "2. 상관없",
         "description" : "%s"
     },
     {
-        "title" : "3. 노상관",
+        "title" : "3. 나가먹",
         "description" : "%s"
     }]
 }
-''' % (now.tm_mon, now.tm_mday, outside, inside, no_matter)
+''' % (now.tm_mon, now.tm_mday, inside, no_matter, outside)
 
 r = requests.post(jandiurl.url, data=data.encode('utf-8'), headers=headers)

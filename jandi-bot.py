@@ -27,19 +27,19 @@ data_tuple = (now.tm_mon, now.tm_mday) + \
 
 data = '''
 {
-    "body" : "오늘 점심 뭐 먹지(%02d/%02d) Update: 삼중택일 ver.",
+    "body" : "오늘 점심 뭐 먹지(%02d/%02d)",
     "connectColor" : "#2196f3",
     "connectInfo": [{
         "title" : "1. 나가먹",
-        "description" : "%s, %s, %s"
+        "description" : "%s | %s | %s"
     },
     {
         "title" : "2. 안에서먹",
-        "description" : "%s, %s, %s"
+        "description" : "%s | %s | %s"
     },
     {
         "title" : "3. 노상관",
-        "description" : "%s, %s, %s"
+        "description" : "%s | %s | %s"
     }]
 }
 ''' % data_tuple

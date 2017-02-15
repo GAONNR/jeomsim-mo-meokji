@@ -25,13 +25,13 @@ data = '''
 }
 ''' % (wolgeupnal - today).days
 
-if (wolgeupnal - today).days <= 1:
+if (wolgeupnal - today).days == 1:
     data = '''
 {
     "body" : "퇴근하세요!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "월급날",
+        "title" : "월급날 D-1",
         "description" : "대신귀\\n여운월\\n급님을\\n드리겠\\n습니다"
     }]
 }

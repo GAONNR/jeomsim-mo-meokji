@@ -19,13 +19,13 @@ data = '''
     "body" : "퇴근하세요!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "월급날까지",
-        "description" : "**%d**일 남았습니다."
+        "title" : "오늘도 6만원을 버셨네요",
+        "description" : "월급날까지는 **%d**일 남았습니다."
     }]
 }
 ''' % (wolgeupnal - today).days
 
-if (wolgeupnal - today).days == 0:
+if (wolgeupnal - today).days <= 1:
     data = '''
 {
     "body" : "퇴근하세요!",

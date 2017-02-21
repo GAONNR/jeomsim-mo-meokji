@@ -28,11 +28,11 @@ data = '''
 if (wolgeupnal - today).days == 1:
     data = '''
 {
-    "body" : "퇴근하세요!",
+    "body" : "Vade!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "월급날 D-1",
-        "description" : "대신귀\\n여운월\\n급님을\\n드리겠\\n습니다"
+        "title" : "Gradus Ad diebus I",
+        "description" : "Venerunt la, vidi, Nora accepit"
     }]
 }
 '''

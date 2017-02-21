@@ -27,18 +27,18 @@ data_tuple = (now.tm_mon, now.tm_mday) + \
 
 data = '''
 {
-    "body" : "오늘 점심 뭐 먹지(%02d/%02d)",
+    "body" : "Quod manducare prandium?(%02d/%02d)",
     "connectColor" : "#2196f3",
     "connectInfo": [{
-        "title" : "1. 나가먹",
+        "title" : "1. Ex",
         "description" : "%s | %s | %s"
     },
     {
-        "title" : "2. 안에서먹",
+        "title" : "2. In",
         "description" : "%s | %s | %s"
     },
     {
-        "title" : "3. 노상관",
+        "title" : "3. Non refert",
         "description" : "%s | %s | %s"
     }]
 }

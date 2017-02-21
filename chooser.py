@@ -15,21 +15,20 @@ class Hos:
     def __str__(self):
         return '%s(%s)' % (self.name, self.menu)
 
-list_of_restaurant = [Hos('버거킹', '햄버거', '나가먹'),
-                      Hos('KFC', '치킨+버거', '건물안'),
-                      Hos('낭풍', '김치찌개', '건물안'),
-                      Hos('하코야', '일식', '건물안'),
-                      Hos('놀부', '부대찌개+보쌈', '건물안'),
-                      Hos('생굴사랑', '굴+순대국+추어탕', '나가먹'),
-                      Hos('차이나', '중국집', '건물안'),
-                      Hos('새벽집', '순두부', '건물안'),
-                      Hos('한촌', '설렁탕', '건물안'),
-                      Hos('빅소이', '태국음식', '나가먹'),
-                      Hos('새벽집', '순두부', '건물안'),
-                      Hos('신의주', '순대+해장국', '건물안'),
-                      Hos('육전면사무소', '면+듭빱', '건물안'),
-                      Hos('맥도날드', '햄버거', '나가먹'),
-                      Hos('초밥', '초밥', '건물안')
+list_of_restaurant = [Hos('버거킹', 'Assae', '나가먹'),
+                      Hos('KFC', 'Pullus', '건물안'),
+                      Hos('낭풍', 'Kimchi pulmentum', '건물안'),
+                      Hos('하코야', 'Iaponica cibum', '건물안'),
+                      Hos('놀부', 'Et brachia pulmentum', '건물안'),
+                      Hos('생굴사랑', 'Ostrea', '나가먹'),
+                      Hos('차이나', 'Sinis', '건물안'),
+                      Hos('새벽집', 'Tofu', '건물안'),
+                      Hos('한촌', 'Seolleongtang', '건물안'),
+                      Hos('빅소이', 'Thailand', '나가먹'),
+                      Hos('신의주', 'Measly', '건물안'),
+                      Hos('육전면사무소', 'Noodles', '건물안'),
+                      Hos('맥도날드', 'Assae', '나가먹'),
+                      Hos('초밥', 'Sushi', '건물안')
                       ]
 
 

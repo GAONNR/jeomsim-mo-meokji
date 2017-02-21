@@ -16,7 +16,7 @@ headers = {'Accept': 'application/vnd.tosslab.jandi-v2+json',
            'Content-Type': 'application/json; charset=utf-8'}
 data = '''
 {
-    "body" : "퇴근하세요!",
+    "body" : "Vade!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
         "title" : "Gladiator Opera Stipendio",

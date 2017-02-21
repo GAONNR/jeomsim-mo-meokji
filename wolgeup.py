@@ -19,7 +19,7 @@ data = '''
     "body" : "Vade!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "Gladiator Opera Stipendio",
+        "title" : "Gladiator opera stipendio",
         "description" : "**%d** diebus, usque payday"
     }]
 }

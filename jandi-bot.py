@@ -27,7 +27,7 @@ data_tuple = (now.tm_mon, now.tm_mday) + \
 
 data = '''
 {
-    "body" : "Quod manducare prandium?(%02d/%02d)",
+    "body" : "Quod manducare prandium? (%02d/%02d)",
     "connectColor" : "#2196f3",
     "connectInfo": [{
         "title" : "1. Ex",

@@ -31,8 +31,8 @@ if (wolgeupnal - today).days == 1:
     "body" : "Vade!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "Gradus Ad diebus I",
-        "description" : "Venerunt la, vidi, Nora accepit"
+        "title" : "Pecuniam cras",
+        "description" : "Veni, vidi, accepit"
     }]
 }
 '''

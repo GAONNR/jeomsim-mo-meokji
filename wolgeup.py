@@ -19,8 +19,8 @@ data = '''
     "body" : "퇴근하세요!",
     "connectColor" : "#e91e63",
     "connectInfo": [{
-        "title" : "오늘도 6만원을 버셨네요",
-        "description" : "월급날까지는 **%d**일 남았습니다."
+        "title" : "Gladiator Opera Stipendio",
+        "description" : "**%d** diebus, usque payday"
     }]
 }
 ''' % (wolgeupnal - today).days
